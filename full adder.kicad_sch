@@ -4198,6 +4198,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 72.39 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "280e0a58-db2b-425f-9e68-9c5b5553b9f7")
+		(property "Reference" "#PWR023"
+			(at 72.39 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca65cab2-ac1b-402e-afaa-3935cca425bc")
+		)
+		(instances
+			(project ""
+				(path "/3df54633-31c2-4102-8885-9302cfc48dc4"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 255.27 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4411,81 +4477,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 101.6 161.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34c2c1e4-f1b7-4966-89be-a7b1948381a7")
-		(property "Reference" "SW4"
-			(at 106.68 160.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 106.68 162.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 101.6 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e03a1ec5-6980-4eea-9207-9325a686c552")
-		)
-		(pin "1"
-			(uuid "89bb685d-16cb-422a-ac10-9ec318a6435d")
-		)
-		(pin "2"
-			(uuid "141fd747-7ab3-4d35-9f29-d61d209da0e6")
-		)
-		(instances
-			(project ""
-				(path "/3df54633-31c2-4102-8885-9302cfc48dc4"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 261.62 101.6 0)
 		(unit 1)
@@ -4549,81 +4540,6 @@
 			(project "full adder"
 				(path "/3df54633-31c2-4102-8885-9302cfc48dc4"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 88.9 161.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36ea2929-524f-47c5-b8f9-fd9b6b207b3b")
-		(property "Reference" "SW3"
-			(at 93.98 160.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 93.98 162.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 88.9 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b3fbdd52-767b-4f54-b450-c4e0d2afe213")
-		)
-		(pin "1"
-			(uuid "731a86f7-e9f2-45a0-8e21-c82e46b3eeb4")
-		)
-		(pin "2"
-			(uuid "0d192212-1042-466d-ab6a-c036cdb1792c")
-		)
-		(instances
-			(project ""
-				(path "/3df54633-31c2-4102-8885-9302cfc48dc4"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -6451,80 +6367,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 76.2 161.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7992d658-908e-4376-9f8a-57ca05e0d250")
-		(property "Reference" "SW2"
-			(at 70.358 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 72.898 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 76.2 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "579ea053-1602-4614-b94f-2cb6605f9a9d")
-		)
-		(pin "2"
-			(uuid "645dcd46-fdc0-4b65-aa4f-70f9b70e7d49")
-		)
-		(pin "1"
-			(uuid "2df96f80-932d-46a5-8d4f-126656225d9d")
-		)
-		(instances
-			(project ""
-				(path "/3df54633-31c2-4102-8885-9302cfc48dc4"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 265.43 41.91 0)
 		(unit 1)
@@ -7484,36 +7326,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 63.5 161.29 270)
+		(lib_id "power:GND")
+		(at 85.09 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a7ab5da0-2314-472d-a968-bff9490b2985")
-		(property "Reference" "SW1"
-			(at 56.134 164.592 0)
+		(fields_autoplaced yes)
+		(uuid "a58e97a2-cb54-424e-bcc9-a8c4062c1ae4")
+		(property "Reference" "#PWR024"
+			(at 85.09 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Value" "SW_SPDT"
-			(at 58.674 164.592 0)
+		(property "Value" "GND"
+			(at 85.09 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 161.29 0)
+			(at 85.09 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7521,8 +7361,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 55.88 161.29 0)
+		(property "Datasheet" ""
+			(at 85.09 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7530,8 +7370,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
-			(at 63.5 161.29 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7540,18 +7380,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e6678d0-6dd1-4a11-917d-5b2f0a1a4720")
-		)
-		(pin "3"
-			(uuid "494a463f-4a05-42fe-b501-829331d4b647")
-		)
-		(pin "2"
-			(uuid "a38e4c1b-ffd6-49b6-8cd3-8c2d115479a6")
+			(uuid "9d4d9695-27fa-40eb-b223-2ac13c52c08f")
 		)
 		(instances
 			(project ""
 				(path "/3df54633-31c2-4102-8885-9302cfc48dc4"
-					(reference "SW1")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7859,6 +7693,81 @@
 			(project "full adder"
 				(path "/3df54633-31c2-4102-8885-9302cfc48dc4"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 69.85 179.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c843d0fe-c6cd-403b-a750-ee809904418b")
+		(property "Reference" "SW5"
+			(at 74.93 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 74.93 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 69.85 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "62d22e53-6453-4d29-aa67-5a1f75f21baf")
+		)
+		(pin "1"
+			(uuid "b8a02511-400e-439d-ab1e-511179746dcd")
+		)
+		(pin "2"
+			(uuid "1bc15a00-3a50-487a-be18-c7c554592225")
+		)
+		(instances
+			(project ""
+				(path "/3df54633-31c2-4102-8885-9302cfc48dc4"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -8275,6 +8184,81 @@
 			(project "full adder"
 				(path "/3df54633-31c2-4102-8885-9302cfc48dc4"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 82.55 179.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da75e8ba-8a6c-4531-bec8-be691a502018")
+		(property "Reference" "SW6"
+			(at 87.63 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 87.63 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 82.55 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3fb3e258-c12b-41c1-b40f-a8d3e7916efe")
+		)
+		(pin "1"
+			(uuid "c513f30d-ab56-4cfd-b052-500ba220293a")
+		)
+		(pin "2"
+			(uuid "e12f6240-4907-4700-8712-4c75c08c67c0")
+		)
+		(instances
+			(project "full adder"
+				(path "/3df54633-31c2-4102-8885-9302cfc48dc4"
+					(reference "SW6")
 					(unit 1)
 				)
 			)
