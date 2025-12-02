@@ -1,5 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "new switcvh")(type "KiCad")(uri "${KIPRJMOD}/new switcvh.pretty")(options "")(descr ""))
-  (lib (name "new switch")(type "KiCad")(uri "${KIPRJMOD}/new switch.pretty")(options "")(descr ""))
+  (lib (name "my footprtn")(type "KiCad")(uri "${KIPRJMOD}/my footprtn.pretty")(options "")(descr ""))
 )

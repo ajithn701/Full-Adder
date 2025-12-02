@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "full adder.kicad_pro",
+    "filename": "My Projects.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -597,6 +597,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -611,7 +619,7 @@
   },
   "sheets": [
     [
-      "3df54633-31c2-4102-8885-9302cfc48dc4",
+      "58db483e-1680-4df6-9eae-fd1eba0ca977",
       "Root"
     ]
   ],

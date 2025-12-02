@@ -1,0 +1,108 @@
+(footprint "LED SWITCH3pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 16 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ca17a38c-5b44-4cc4-91ed-3cf6c41b623b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "toggleswitch3pin"
+		(at -13 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8391c8eb-4dda-426b-8534-58e8fd93655e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed996a5e-5815-4ac8-bb33-5cfc32c4b6c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59d7c3d7-75ec-4cf9-8833-57b9ccb3d713")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 12 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "065130ee-bd46-4d22-b795-99eea68a23fb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 13.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3d0c21f5-ed6b-4e63-8669-f0d8b44dede4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -7)
+		(size 6.95 3.06)
+		(drill oval 5.2 1.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "8630ed2c-03c8-4f40-8bae-82297d140bd9")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 0)
+		(size 6.95 3.06)
+		(drill oval 5.2 1.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "6fb6d9ce-2d8f-4e66-aea0-c1e0e94b7cb7")
+	)
+	(pad "3" thru_hole roundrect
+		(at 0 7)
+		(size 6.95 3.06)
+		(drill oval 5.2 1.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "1ba2ecea-ae98-4e1b-91a2-869abc746c41")
+	)
+	(embedded_fonts no)
+)
