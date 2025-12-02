@@ -16895,9 +16895,42 @@
 		)
 		(embedded_fonts no)
 	)
+	(gr_circle
+		(center 259 169)
+		(end 262 169)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "701e4693-56e9-475b-9577-2b6875788bed")
+	)
+	(gr_circle
+		(center 15 21.5)
+		(end 18 21.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "8eefa620-21bf-4ab4-827d-90fadd03c2ed")
+	)
+	(gr_circle
+		(center 15 171)
+		(end 18 171)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "ae22974b-3df7-498a-8ae5-54bd4e4ffaf9")
+	)
 	(gr_rect
-		(start 16.25 16.5)
-		(end 265.75 163.25)
+		(start 10.25 16.5)
+		(end 265.75 176)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -16905,6 +16938,17 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "b5d985d4-e62a-44a2-956c-6d09ac08709e")
+	)
+	(gr_circle
+		(center 261 21.5)
+		(end 264 21.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "d83935be-65ee-4b5d-858f-6230c072d825")
 	)
 	(segment
 		(start 143.701 44.1175)
